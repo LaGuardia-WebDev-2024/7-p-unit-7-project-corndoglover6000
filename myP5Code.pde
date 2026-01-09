@@ -1,17 +1,20 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
-    size(600, 400); 
+    size(300, 300); 
 }
 
 //🎯Variable Declarations Go Here
-
+var catX = 90
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
   background(255,255,255,0);
+  strokeWeight (4)
+  fill(245, 212, 114);
   
-
+  //nyan cat body
+  rect(catX,100,120,90);
 
 
 
