@@ -10,12 +10,33 @@ var catX = 90
 draw = function(){
  
   background(255,255,255,0);
-  strokeWeight (4)
-  fill(245, 212, 114);
+  
   
   //nyan cat body
+  stroke(0,0,0);
+  strokeWeight (4);
+  fill(255, 204, 153);
   rect(catX,100,120,90);
+  noStroke();
+  fill(255, 153, 255);
+  rect(catX+10,110,100,70);
+  fill(255, 51, 153);
+  rect(catX+20, 120, 6, 6);
+  rect(catX+45, 115, 6, 6);
+  rect(catX+65, 115, 6, 6);
+  rect(catX+90, 130, 6, 6);
+  rect(catX+25, 145, 6, 6);
+  rect(catX+40, 133, 6, 6);
+  rect(catX+46, 148, 6, 6);
+  rect(catX+16, 160, 6, 6);
+  rect(catX+42, 165, 6, 6);
+  rect(catX+26, 170, 6, 6);
 
+  //cat face
+  stroke(0,0,0);
+  strokeWeight (4);
+  fill(153, 153, 153);
+  rect(catX+65,144,75,50);
 
 
 
