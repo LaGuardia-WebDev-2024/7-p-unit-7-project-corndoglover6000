@@ -37,6 +37,21 @@ draw = function(){
   strokeWeight (4);
   fill(153, 153, 153);
   rect(catX+65,144,75,50);
+  fill(0,0,0);
+  line(catX+92, 185,catX+118,185);
+  line(catX+92, 184, catX+92, 180);
+  line(catX+119, 184, catX+119, 180);
+  line(catX+105.5, 184, catX+105.5, 180);
+  noStroke();
+  rect(catX+83,164,10,10);
+  rect(catX+118,164,10,10);
+  rect(catX+108, 169, 5, 5);
+  fill(255,255,255);
+  rect(catX+83,164,5,5);
+  rect(catX+118,164,5,5);
+  fill(255, 153, 153);
+  rect(catX+70,177,10,10);
+  rect(catX+126,177,10,10);
 
 
 
