@@ -7,6 +7,7 @@ void setup() {
 //🎯Variable Declarations Go Here
 var catX = 90
 var catY = 0
+var starX = 250
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -86,13 +87,24 @@ draw = function(){
   rect(catX+70,catY+177,10,10);
   rect(catX+126,catY+177,10,10);
 
-  catX = mouseX;
+  //star
+  noStroke();
+  fill(224, 244, 247);
+  rect(starX, 30, 4, 20);
+  rect(starX-8, 38, 20, 4);
+  rect(starX-150, 230, 4, 20);
+  rect(starX-158, 238, 20, 4);
 
+
+  catX = mouseX;
+  
 
 
   //Show x y values when mousepressed
   if(mousePressed){showXYPositions();
   background(255,255,255,0);}
+
+
 
 }
 
